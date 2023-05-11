@@ -1,0 +1,497 @@
+
+
+body
+{
+    background-color: #e7fbfb;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+.nav-top
+{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.ul
+{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+
+}
+
+.logo
+{
+    margin-right: 120px;
+
+}
+.btn
+{
+    
+    padding: 15px 25px;
+    font-weight: 600px;
+    top: 53px;
+    border: 2px solid #7e99ec;
+    border-radius: 30px;
+
+}
+
+
+.link
+{
+    text-decoration: none;
+}
+
+
+.block2
+{
+    
+ padding-left: 200px;  
+
+}
+
+.section1
+{
+    display: flex;
+
+}
+
+.h1
+{
+    width: 540px;
+    height: 220px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+
+}
+
+
+////section2
+
+.section2
+{
+    margin-bottom: 120px;
+    margin-top: 120px;
+    position: relative;
+}
+
+.section2::before{
+    content: '';
+    width: 413px;
+    height: 413px;
+    position: absolute;
+    left: 0;
+    
+}
+
+.section-h2
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.card-inner
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 60px;
+
+}
+
+
+
+.card-h3
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+}
+
+.card-p
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    width: 290px;
+    height: 72px;
+    text-align: center;
+    padding-bottom: 19px;
+}
+
+.card1
+{
+    background-color: rgba(242, 245, 253, 1);
+    border-radius: 35px;
+    position: relative;
+    width: 550px;
+    height: 150px;
+
+}   
+.card1::before
+{
+    position: absolute;
+    background-image:   url(/img/card1.png);
+    content: "";
+    width: 175px;
+    height: 200px;
+    left: -80px;
+    top: -23px;
+    background-repeat: no-repeat;
+
+}
+
+.card2
+{
+    background-color: rgba(242, 245, 253, 1);
+    border-radius: 30px 100px 100px 30px;
+    width: 550px;
+    height: 150px;
+    position: relative;
+}
+
+.card2::after
+{
+    position: absolute;
+    background-image:   url(/img/card2.png);
+    content: "";
+    width: 175px;
+    height: 200px;
+    right: -80px;
+    bottom: -25px;
+    background-repeat: no-repeat;
+}
+
+.card3
+{
+    background-color: rgba(242, 245, 253, 1);
+    border-radius: 35px;
+    width: 550px;
+    height: 150px;
+    position: relative;
+}
+
+.card3::before
+{
+    position: absolute;
+    background-image:   url(/img/card3.png);
+    content: "";
+    width: 175px;
+    height: 200px;
+    left: -80px;
+    top: -25px;
+    background-repeat: no-repeat;
+
+}
+
+.card4
+{
+    background-color: rgba(242, 245, 253, 1);
+    border-radius: 30px 100px 100px 30px;
+    width: 550px;
+    height: 150px;
+    position: relative;
+}
+
+.card4::after
+{
+    position: absolute;
+    background-image:   url(/img/card4.png);
+    content: "";
+    width: 175px;
+    height: 200px;
+    right: -80px;
+    bottom: -25px;
+    background-repeat: no-repeat;
+}
+
+.cardd
+{
+    text-align: center;
+}
+
+.cardt
+{
+    padding-left: 40px;
+}
+
+.cardpp
+{
+    margin: 0;
+    padding-left: 140px;
+    text-align: left;
+}
+
+
+
+////section3
+
+.dots
+{
+    position: relative;
+
+}
+
+.section3
+{
+    position: relative;
+}
+
+.section3::before
+{
+    position: absolute;
+    content: '';
+    width: 631px;
+    height: 670px;
+    left: 25%;
+    top: 130px;
+    background-image: url(/img/lines.png);
+}
+
+.section3-inner
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 322px;
+
+}
+
+.section3-col1
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 190px;
+    margin-left: 200px;
+    margin-top: -15px
+}
+
+.section3-col2
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 175px;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.col1-1, .col1-2, .col1-3, .col2-1, .col2-2
+{
+    position: relative;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+
+    background-color: #7e99ec;
+    border-radius: 30px;
+    padding: 20px 30px 25px 15px
+}
+
+.col1-1::before
+{
+    position: absolute;
+    width: 40px;
+    height: 54px;
+    content: '';
+    left: 0;
+    bottom: 0;   
+}
+
+.col1-1::after
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    content: "";
+    background-image: url(/img/hand1.png);
+    left: -45px;
+
+}
+
+.col1-2::before
+{
+    position: absolute;
+    width: 40px;
+    height: 54px;
+    content: '';
+    left: 0;
+    bottom: 0;   
+}
+
+.col1-2::after
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    content: "";
+    background-image: url(/img/hand2.png);
+    left: -45px;
+
+}
+
+.col1-3::before
+{
+    position: absolute;
+    width: 40px;
+    height: 54px;
+    content: '';
+    left: 0;
+    bottom: 0;   
+}
+
+.col1-3::after
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    content: "";
+    background-image: url(/img/hand3.png);
+    left: -45px;
+
+}
+
+.col2-1::before
+{
+    position: absolute;
+    width: 40px;
+    height: 54px;
+    content: '';
+    left: 0;
+    bottom: 0;   
+}
+
+.col2-1::after
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    content: "";
+    background-image: url(/img/pencil.png);
+    left: -40px;
+
+}
+
+.col2-2::before
+{
+    position: absolute;
+    width: 40px;
+    height: 54px;
+    content: '';
+    left: 0;
+    bottom: 0;   
+}
+
+.col2-2::after
+{
+    position: absolute;
+    width: 55px;
+    height: 60px;
+    content: "";
+    background-image: url(/img/fire.png);
+    left: 160px;
+
+}
+
+.portfolio
+{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+
+.portfolio::after
+{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 50px;
+      
+}
+
+
+////slider 
+
+
+.slider-inner
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.slider
+{
+    position: relative;
+    height: 250px;
+
+}
+
+.slider-item
+{
+    margin-top: 40px;
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.slider .center .slideritem
+{
+    margin-top: 0;
+    
+}
+
+.sliderbtn
+{
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.sliderbtn--prew
+{
+    left: -50px;
+    padding-left: 0px;
+    justify-content: start;
+}
+
+.sliderbtn--next
+{
+    right: -40px;
+    padding-right: 0px;
+    justify-content: flex-end;
+}
+.section4
+{
+    padding-bottom: 90px;
+    padding-top: 15px;
+}
+
